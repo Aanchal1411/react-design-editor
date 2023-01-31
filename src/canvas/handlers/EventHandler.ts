@@ -117,7 +117,7 @@ class EventHandler {
 		 * Mouse down event on object
 		 * @param {FabricEvent} opt
 		 */
-		mousedown: (opt: FabricEvent) => {
+		mousedown: (opt: any) => {
 			const { target } = opt;
 			if (target && target.link && target.link.enabled) {
 				const { onClick } = this.handler;
@@ -130,7 +130,7 @@ class EventHandler {
 		 * Mouse double click event on object
 		 * @param {FabricEvent} opt
 		 */
-		mousedblclick: (opt: FabricEvent) => {
+		mousedblclick: (opt: any) => {
 			const { target } = opt;
 			if (target) {
 				const { onDblClick } = this.handler;

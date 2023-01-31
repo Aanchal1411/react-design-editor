@@ -24,10 +24,10 @@ class Title extends Component<IProps> {
 
 	handlers = {
 		goGithub: () => {
-			window.open('https://github.com/salgum1114/react-design-editor');
+			window.open('https://github.com/Aanchal1411/react-design-editor');
 		},
 		goDocs: () => {
-			window.open('https://salgum1114.github.io/react-design-editor/docs');
+			window.open('https://Aanchal1411.github.io/react-design-editor/docs');
 		},
 		showHelp: () => {
 			this.setState({

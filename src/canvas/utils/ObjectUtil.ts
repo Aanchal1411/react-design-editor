@@ -397,7 +397,7 @@ export interface KeyEvent {
 
 export type InteractionMode = 'selection' | 'grab' | 'polygon' | 'line' | 'arrow' | 'link' | 'crop';
 
-export interface FabricEvent<T extends any = Event> extends Omit<fabric.IEvent, 'e'> {
+export interface FabricEvent<T extends any = Event> extends Omit<any, 'e'> {
 	e: T;
 	target?: FabricObject;
 	subTargets?: FabricObject[];

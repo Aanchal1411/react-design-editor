@@ -1,6 +1,6 @@
 # React Design Editor
 
-[![](https://img.shields.io/npm/l/react-design-editor?style=flat-square)](https://en.wikipedia.org/wiki/MIT_License) [![build](https://github.com/salgum1114/react-design-editor/workflows/build/badge.svg)](https://github.com/salgum1114/react-design-editor/actions) [![](https://flat.badgen.net/npm/v/react-design-editor?icon=npm)](https://www.npmjs.com/package/react-design-editor)
+[![](https://img.shields.io/npm/l/react-design-editor?style=flat-square)](https://en.wikipedia.org/wiki/MIT_License) [![build](https://github.com/Aanchal1411/react-design-editor/workflows/build/badge.svg)](https://github.com/Aanchal1411/react-design-editor/actions) [![](https://flat.badgen.net/npm/v/react-design-editor?icon=npm)](https://www.npmjs.com/package/react-design-editor)
 
 React Design Editor is a module for React, written in Javascript/Typescript which provides two primary features:
 
@@ -11,7 +11,7 @@ The module primarily uses the [Ant Design](https://github.com/ant-design/ant-des
 
 Try it out today - the project is being continually developed to support a variety of different functions.
 
-[View Demo](https://salgum1114.github.io/react-design-editor/)
+[View Demo](https://Aanchal1411.github.io/react-design-editor/)
 
 # Feature List
 
@@ -39,7 +39,7 @@ Run `npm install react-design-editor` or `yarn add react-design-editor`
 
 # Getting Started
 
-1. Clone this Project with `git clone https://github.com/salgum1114/react-design-editor.git`
+1. Clone this Project with `git clone https://github.com/Aanchal1411/react-design-editor.git`
 2. Install dependencies with `npm install` or `yarn`
 3. Run the App with `npm start` or `yarn start`
 4. Open your web browser to `http://localhost:4000`

@@ -24,7 +24,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/salgum1114/react-design-editor.git"
+		"url": "git+https://github.com/Aanchal1411/react-design-editor.git"
 	},
 	"keywords": [
 		"React.js",
@@ -33,12 +33,12 @@
 		"react-design-editor",
 		"design-tool"
 	],
-	"author": "salgum1114",
+	"author": "Aanchal1411",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/salgum1114/react-design-editor/issues"
+		"url": "https://github.com/Aanchal1411/react-design-editor/issues"
 	},
-	"homepage": "https://salgum1114.github.io/react-design-editor",
+	"homepage": "https://Aanchal1411.github.io/react-design-editor",
 	"peerDependencies": {
 		"animejs": "^3.0.0",
 		"fabric": "^4.6.0",
