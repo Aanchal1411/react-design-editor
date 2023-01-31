@@ -117,7 +117,7 @@ class EventHandler {
 		 * Mouse down event on object
 		 * @param {FabricEvent} opt
 		 */
-		mousedown: (opt: FabricEvent) => {
+		mousedown: (opt: any) => {
 			const { target } = opt;
 			if (target && target.link && target.link.enabled) {
 				const { onClick } = this.handler;
@@ -224,7 +224,7 @@ class EventHandler {
 	 *
 	 * @param {FabricEvent} opt
 	 */
-	public scaling = (opt: FabricEvent) => {
+	public scaling = (opt: any) => {
 		const { target } = opt as any;
 		if (this.handler.interactionMode === 'crop') {
 			this.handler.cropHandler.resize(opt);

@@ -233,7 +233,7 @@ class CropHandler {
 	 *
 	 * @param {FabricEvent} opt
 	 */
-	public moving = (opt: fabric.IEvent) => {
+	public moving = (opt: any) => {
 		const { target } = opt;
 		const { left, top, width, height, scaleX, scaleY } = target;
 		const {

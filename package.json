@@ -1,5 +1,5 @@
 {
-	"name": "react-design-editor",
+	"name": "react-design-editor1",
 	"version": "0.0.52",
 	"description": "Design Editor Tools with React.js + ant.design + fabric.js",
 	"main": "dist/react-design-editor.min.js",
@@ -16,8 +16,7 @@
 		"start:dev": "webpack serve --config webpack.dev.js",
 		"serve": "http-server docs -p 4001",
 		"ghpages": "npm run build && node scripts/ghpages",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build",
+		"deploy": "npm run build:lib && npm publish",
 		"lint": "npm run tsc",
 		"clean": "node scripts/clean",
 		"tsc": "tsc",
@@ -25,7 +24,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/salgum1114/react-design-editor.git"
+		"url": "git+https://github.com/Aanchal1411/react-design-editor.git"
 	},
 	"keywords": [
 		"React.js",
@@ -34,12 +33,12 @@
 		"react-design-editor",
 		"design-tool"
 	],
-	"author": "salgum1114",
+	"author": "Aanchal1411",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/salgum1114/react-design-editor/issues"
+		"url": "https://github.com/Aanchal1411/react-design-editor/issues"
 	},
-	"homepage": "https://Aanchal1411.github.io/react-design-editor",
+	"homepage": "https://Aanchal1411.github.io/react-design-editor/",
 	"peerDependencies": {
 		"animejs": "^3.0.0",
 		"fabric": "^4.6.0",
@@ -64,6 +63,7 @@
 		"react-ace": "^8.1.0",
 		"react-color": "^2.14.1",
 		"react-custom-scrollbars": "^4.2.1",
+		"react-design-editor": "0.0.52",
 		"react-dom": "^16.14.0",
 		"react-helmet": "^5.2.0",
 		"react-hot-loader": "^4.12.20",
