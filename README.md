@@ -1,6 +1,6 @@
 # React Design Editor
 
-[![](https://img.shields.io/npm/l/react-design-editor?style=flat-square)](https://en.wikipedia.org/wiki/MIT_License) [![build](https://github.com/salgum1114/react-design-editor/workflows/build/badge.svg)](https://github.com/salgum1114/react-design-editor/actions) [![](https://flat.badgen.net/npm/v/react-design-editor?icon=npm)](https://www.npmjs.com/package/react-design-editor)
+[![](https://img.shields.io/npm/l/react-design-editor?style=flat-square)](https://en.wikipedia.org/wiki/MIT_License) [![build](https://github.com/Aanchal1411/react-design-editor/workflows/build/badge.svg)](https://github.com/Aanchal1411/react-design-editor/actions) [![](https://flat.badgen.net/npm/v/react-design-editor?icon=npm)](https://www.npmjs.com/package/react-design-editor)
 
 React Design Editor is a module for React, written in Javascript/Typescript which provides two primary features:
 

@@ -1,5 +1,5 @@
 {
-	"name": "react-design-editor1",
+	"name": "react-design-editor",
 	"version": "0.0.52",
 	"description": "Design Editor Tools with React.js + ant.design + fabric.js",
 	"main": "dist/react-design-editor.min.js",
