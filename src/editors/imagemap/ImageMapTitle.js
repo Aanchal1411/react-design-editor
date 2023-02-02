@@ -7,7 +7,7 @@ class ImageMapTitle extends Component {
 		return (
 			children || (
 				<Flex className="rde-content-layout-title" alignItems="center" flexWrap="wrap">
-					<Flex.Item flex="0 1 auto">
+					{/* <Flex.Item flex="0 1 auto">
 						<Flex
 							className="rde-content-layout-title-title"
 							justifyContent="flex-start"
@@ -20,7 +20,7 @@ class ImageMapTitle extends Component {
 						<Flex className="rde-content-layout-title-content" alignItems="center">
 							{content}
 						</Flex>
-					</Flex.Item>
+					</Flex.Item> */}
 					<Flex.Item flex="auto">
 						<Flex className="rde-content-layout-title-action" justifyContent="flex-end" alignItems="center">
 							{action}

@@ -61,7 +61,7 @@ class WorkflowConfigurations extends Component<IProps> {
 					activeKey={activeKey}
 					onChange={this.handlers.onChange}
 					style={{ height: '100%' }}
-					tabBarStyle={{ marginTop: 60 }}
+					// tabBarStyle={{ marginTop: 60 }}
 				>
 					<Tabs.TabPane tab={<Icon name="cog" />} key="info">
 						<WorkflowInfo workflow={workflow} onChange={onChange} />
