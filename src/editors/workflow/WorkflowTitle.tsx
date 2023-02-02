@@ -12,7 +12,7 @@ class WorkflowTitle extends Component<IProps> {
 		const { title, content, action, children } = this.props;
 		return (
 			children || (
-				<Flex className="rde-content-layout-title" alignItems="center" flexWrap="wrap">
+				<Flex className="rde-content-layout-title" alignItems="center" flexWrap="wrap" style={{background:"transparent"}}>
 					{/* <Flex.Item flex="0 1 auto">
 						<Flex
 							className="rde-content-layout-title-title"

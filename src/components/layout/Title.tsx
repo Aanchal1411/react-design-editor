@@ -95,10 +95,10 @@ class Title extends Component<IProps> {
 						onClick={this.props.onChangeEditor}
 						selectedKeys={[this.props.currentEditor]}
 					>
-						<Menu.Item key="imagemap" style={{ color: 'black'}}>
+						<Menu.Item key="imagemap" style={{ color: '#000000d9'}}>
 							{/* {i18next.t('imagemap.imagemap')} */}Editor
 						</Menu.Item>
-						<Menu.Item key="workflow" style={{ color: 'black'}}>
+						<Menu.Item key="workflow" style={{ color: '#000000d9'}}>
 							{i18next.t('workflow.workflow')}
 						</Menu.Item>
 						{/* <Menu.Item key="flow" style={{ color: '#fff' }}>{i18n.t('flow.flow')}</Menu.Item> */}

@@ -50,7 +50,7 @@ class App extends Component<any, IState> {
 					<link rel="manifest" href="./manifest.json" />
 					<link rel="shortcut icon" href="./favicon.ico" />
 					<link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" />
-					<title>React Design Editor</title>
+					<title>Design Editor</title>
 					<script async={true} src="https://www.googletagmanager.com/gtag/js?id=UA-97485289-3" />
 					<script>
 						{`
@@ -62,11 +62,11 @@ class App extends Component<any, IState> {
 					</script>
 					<script async={true} src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
 				</Helmet>
-				<div className="rde-title" style={{height:"40px", width:"90%"}}>
+				<div className="rde-title" style={{height:"40px", width:"92%"}}>
 					<Title onChangeEditor={this.handleChangeEditor} currentEditor={activeEditor} />
 				</div>
 				<FlowContainer>
-					<div className="rde-content" style={{paddingTop:"0px"}}>{this.renderEditor(activeEditor)}</div>
+					<div className="rde-content" style={{paddingTop:"2px"}}>{this.renderEditor(activeEditor)}</div>
 				</FlowContainer>
 			</div>
 		);
