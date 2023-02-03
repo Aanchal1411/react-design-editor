@@ -736,7 +736,7 @@ class ImageMapEditor extends Component {
 								this.canvasRef = c;
 							}}
 							className="rde-canvas"
-							minZoom={30}
+							minZoom={10}
 							maxZoom={500}
 							objectOption={defaultOption}
 							propertiesToInclude={propertiesToInclude}
