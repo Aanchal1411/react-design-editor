@@ -662,7 +662,7 @@ class ImageMapEditor extends Component {
 					shape="circle"
 					icon="file-download"
 					disabled={!editing}
-					tooltipTitle={i18n.t('action.download')}
+					tooltipTitle={"Save as Template"}
 					onClick={onDownload}
 					tooltipPlacement="bottomRight"
 				/>

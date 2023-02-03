@@ -23,7 +23,7 @@ class ImageMapHeaderToolbar extends Component {
 						className="rde-action-btn"
 						shape="circle"
 						icon="layer-group"
-						tooltipTitle={i18n.t('action.canvas-list')}
+						// tooltipTitle={i18n.t('action.canvas-list')}
 					/>
 					<div className="rde-canvas-list">
 						<ImageMapList canvasRef={canvasRef} selectedItem={selectedItem} />
