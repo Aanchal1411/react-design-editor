@@ -1,4 +1,4 @@
-import { Badge, Button, Menu, Popconfirm } from 'antd';
+import { Badge, Button, Menu, Popconfirm, Modal } from 'antd';
 import i18n from 'i18next';
 import debounce from 'lodash/debounce';
 import React, { Component } from 'react';
@@ -86,6 +86,7 @@ class ImageMapEditor extends Component {
 		editing: false,
 		descriptors: {},
 		objects: undefined,
+		showSaveFileMenu: false,
 	};
 
 	componentDidMount() {
@@ -549,6 +550,12 @@ class ImageMapEditor extends Component {
 			inputEl.click();
 			inputEl.remove();
 		},
+		onSaveProgress: () => {
+			console.log('test:::');
+			this.setState({
+				showSaveFileMenu: true,
+			});
+		},
 		onDownload: () => {
 			this.showLoading(true);
 			console.log('this.canvasRef: ', this.canvasRef);
@@ -649,6 +656,7 @@ class ImageMapEditor extends Component {
 		const {
 			onChangePreview,
 			onDownload,
+			onSaveProgress,
 			onUpload,
 			onChangeAnimations,
 			onChangeStyles,
@@ -662,8 +670,17 @@ class ImageMapEditor extends Component {
 					shape="circle"
 					icon="file-download"
 					disabled={!editing}
-					tooltipTitle={"Save as Template"}
+					tooltipTitle={'Save As Template'}
 					onClick={onDownload}
+					tooltipPlacement="bottomRight"
+				/>
+				<CommonButton
+					className="rde-action-btn"
+					shape="circle"
+					icon="file-download"
+					disabled={!editing}
+					tooltipTitle={'Save File'}
+					onClick={onSaveProgress}
 					tooltipPlacement="bottomRight"
 				/>
 				{editing ? (
@@ -702,6 +719,19 @@ class ImageMapEditor extends Component {
 				/>
 			</React.Fragment>
 		);
+
+		const saveFileModule = (
+			<Modal
+				visible={this.state.showSaveFileMenu}
+				footer={null}
+				onCancel={this.handleCancel}
+				width="fit-content"
+				bodyStyle={{ minWidth: '700px', minHeight: '300px' }}
+				destroyOnClose={true}
+			>
+				test
+			</Modal>
+		);
 		const titleContent = (
 			<React.Fragment>
 				<span>{i18n.t('imagemap.imagemap-editor')}</span>
@@ -731,6 +761,7 @@ class ImageMapEditor extends Component {
 						}}
 						className="rde-editor-canvas"
 					>
+						{saveFileModule}
 						<Canvas
 							ref={c => {
 								this.canvasRef = c;

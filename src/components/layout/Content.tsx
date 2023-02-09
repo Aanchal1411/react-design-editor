@@ -47,7 +47,7 @@ class Content extends Component<IProps> {
 					</Layout>
 				</Layout>
 			</Spin>
-		);
+		); 
 	}
 }
 
